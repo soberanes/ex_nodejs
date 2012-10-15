@@ -19,7 +19,7 @@ function ejecutar(){
 	}
 
 	var server = http.createServer(onRequest).listen(6969);
-	console.log('Servidor corriendo en puerto 6969');
+	console.log("Server ON");
 }
 
 exports.ejecutar = ejecutar;
